@@ -249,6 +249,25 @@ footer {
     width: 100%;
 }
 
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 400px;
+    position: absolute;
+    background-position: responsive;
+}
+
 /* Media queries */
 
 /* For larger to medium screen size from 1200px wide and down*/
@@ -334,3 +353,4 @@ footer {
         column-count: 2;
     }
 }
+

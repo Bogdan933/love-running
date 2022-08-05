@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Love Running club for runners in Dublin, Ireland. Urban running, trail running, Dublin docklands and phoenix park.">
+    <meta name="keywords" content="love running, run, running club, runners, ireland, dublin, sport, exercise">
+    <title>Love Running</title>
+
+    <!-- Stylesheet -->
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h2 id="logo">Love Running</h2>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a class="active" href="signup.html">Sign Up</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="form-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+          
+            <h2>Let's get you signed up!</h2>    
+            
+            <label for="fname">First Name</label>  
+            <input type="text" name ="first_name" id="fname" required>
+            <label for="lname">Last Name</label>
+            <input class="lname" type="text" name="last_name" id="lname" required>
+            <label for="email">Email Address</label>
+            <input type="email" name="email_address" id="email" required>
+
+            <label for="road">Road</label>
+            <input type="radio" name="running_preference" id="road" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" name="running_preference" id="trail" value="trail" required>
+            <label for="both">Both</label>
+            <input type="radio" name="running_preference" id="both" value="both" required>            
+          
+            <input class="join-button" type="submit" value="Let's Run!">
+        </form>
+    </section>
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
